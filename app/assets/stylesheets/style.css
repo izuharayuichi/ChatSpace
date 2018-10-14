@@ -1,0 +1,92 @@
+.heading{
+  background-color: #38AEFD;
+  width: 100vw;
+  color: white;
+  text-align: center;
+}
+/*
+.content{
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+  float: left;
+}*/
+
+.left{
+  height: 100vh;
+  width: 300px;
+  float: left;
+}
+
+.left-1{
+  height: 86px;
+  width: 300px;
+  background-color: #253141;
+}
+
+.text_name{
+  line-height: 86px;
+  color: white;
+}
+
+.name{
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto auto auto 20px;
+}
+
+.left-2{
+  background-color: #2f3e51;
+  height: 80vh;
+  width: 300px;
+}
+
+.group_name{
+  color: white;
+  font-size: 15px;
+  padding: 20px 0 5px 20px;
+}
+
+.group_member{
+  color: white;
+  font-size: 11px;
+  padding: 0 0 0 20px;
+}
+/*.content-in-left-bottom*/
+
+.right{
+  height: 100vh;
+  width: 60vw;
+  float: left;
+}
+
+.right-1{
+  height: 86px;
+  width: 60vw;
+  background-color: gray;
+}
+
+.right-2{
+  height: 80vh;
+  width: 60vw;
+  background-color: pink;
+}
+
+/*
+変数定義は簡単です。変数名と値を書くだけです。
+
+// $body-bg に #fff を格納する
+$body-bg: #fff !default;
+定義した変数は、SCSS内で以下のように使用します。
+
+$body-bg: #fff !default;
+
+.contents {
+  background: $body-bg;
+}
+
+// これをCSSにコンパイルすると
+.contents {
+  background: #fff;
+}
+*/
